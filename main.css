@@ -1,0 +1,30 @@
+@import url('https:fonts.googleapis.com/css?family=Raleway:400,500,700|Open+Sans:300,300i,400,400i,600,700');
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    font-family: 'Raleway','Open Sans','sans-serif';
+    overflow-x: hidden;
+}
+/* header works start */
+
+ul,
+ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.top-bar-text li{
+    display: inline-block;
+}
+.header-top{
+    background-color:rgb(141, 194, 191);
+    padding: 10px 0;
+}
+.top-bar-text{
+    margin-top: 5px;
+}
