@@ -109,6 +109,9 @@ p {
 .about-skill{
     margin: 80px 0;
 }
+.about-skill .paragraph{
+    margin-bottom: 40px;
+}
 .title-text{
     text-transform: uppercase;
     font-size: 35px;
@@ -138,3 +141,60 @@ p {
     width: 50px;
     background-color: #1ABC9C;
 } */
+.about-image img{
+    margin-top: 8%; 
+}
+.paragraph p{
+    margin-top: 8%; 
+}
+.Progress-text h3{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 0;
+    float: left;
+    padding-bottom: 4px;
+}
+.Progress-text p{
+    text-align: right;
+    font-size: 14px;
+    font-family: 'Open Sans',sans-serif;
+}
+.progress-bar{
+    background-color: #1ABC9C;
+}
+.about-skill .skill .progress{
+    height: 5px;
+    width: 100%;
+    background-color: #DCDCDC;
+}
+.service-area{
+    background: #f1f1f1;
+    padding: 94px 0 63px;
+}
+
+
+
+/* services start*/
+.single-service-part{
+    padding: 20px 1px;
+}
+.single-service-part h3{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222222;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 15px 0;
+}
+.single-service-part p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #222;
+    text-align: center;
+    text-transform: capitalize;    
+}
