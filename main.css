@@ -198,3 +198,48 @@ p {
     text-align: center;
     text-transform: capitalize;    
 }
+
+/*service end */
+/*counter start */
+.counter_banner{
+    position: relative;
+    background-color: #1ABC9C;
+}
+.bnr_overly{
+    padding: 90px 0px 70px;
+}
+.counter-text h4{
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Raleway',sans-serf;
+    font-weight: 700;
+    padding: 10px 0px 10px;
+}
+.counter-text p{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serf;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+
+/*counter end*/
+
+/*contact us start */
+
+.form{
+    background: #ffffff;
+    width: 100%;
+    padding: 44px 20px 20px 20px;
+    border: transparent;
+    box-shadow: 0px 0px 10px 0px rgba(118, 120, 122, 0.4);
+    z-index: 999;
+    position: inherit;
+    outline: 0;
+}
+
+
+
+
+/*contact us end */
