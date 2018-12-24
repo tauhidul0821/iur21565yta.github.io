@@ -358,14 +358,42 @@ p {
 
 
 /*price start*/
+.price-bg::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    opacity: 0.8;
+    width: 100%;
+}
 .price-bg{
-    background-color:#A78E8F;
+    padding: 70px 0 91px;
+    position: relative;
+    background-image:url(./img/banner-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.price-head h2{
+    color: #fff;
 }
 .price-head{
     margin-bottom: 70px;
 }
 .event-priceing{
     border-right: 1px solid #ffffff;
+}
+.event-priceing:last-child{
+    border: 0px;
+    border-left: 1px;
+    border-color: #fff;
+    border-style: solid;
+
+}
+.event-priceing:nth-last-child(2) {
+    border: none;
 }
 .event-priceing .plan-name{
     border-bottom: 1px solid #fff;
@@ -389,8 +417,7 @@ p {
     padding: 25px 0;
 }
 .event-priceing .plan-details ul{
-    margin: 40px 0px;
-
+    margin: 40px 17px;
 }
 
 .event-priceing .plan-details li{
@@ -408,9 +435,6 @@ p {
     color: #1ABC9C;
 }
 
-.event-priceing:last-child{
-    border: none;
-}
 .event-priceing .plan-name h6:first-child, .event-priceing .plan-name h6:last-child{
     padding-top: 80px;
 } 
@@ -452,3 +476,44 @@ p {
 
 
 /*price end*/
+/*blog start*/
+.blog{
+    padding: 82px 0 40px;
+}
+.blog h4{
+    
+}
+.blog .blog-title{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans',sans-serif;
+    color: #222;
+    margin-top: 31px;    
+}
+.blog .single-blog .blog-paragraph{
+    margin: 10px 0 13px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 15px;
+    line-height: 1.7em;
+    color: #222;
+    font-weight: 500;
+}
+.blog .single-blog .btn{
+    transition: all 0.3s ease;
+    background: #1abc9c;
+    border: 1px solid #1ABC9C;
+    border-radius: 25px;
+    color: #fff;
+    font-family: 'Open Sans',sans-serif;
+    padding: 8px 30px;
+    text-transform: capitalize;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0;
+}
+.single-blog{
+    margin-top: 71px;
+}
+
+/*blog end*/
