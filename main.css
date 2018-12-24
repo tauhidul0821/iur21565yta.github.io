@@ -388,14 +388,20 @@ p {
     text-align: center;
     padding: 25px 0;
 }
+.event-priceing .plan-details ul{
+    margin: 40px 0px;
+
+}
 
 .event-priceing .plan-details li{
     font-size: 20px;
     font-weight: 500;
     color: #fff;
     margin: 15px 0;
-    text-align: center;
     font-family: 'Open Sans',sans-serif;
+    text-align: left;
+    padding: 0px 70px;
+    margin: 15px 0;
 }
 
 .event-priceing .plan-details li:hover{
@@ -430,7 +436,19 @@ p {
 .best-offer-padding{
     padding: 22px;
 }
-
+.register-now-btn{
+    padding: 16px 30px;
+    background: #fff;
+    border: 1px solid #fff;
+    color: #1ABC9D;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-left: 0px;
+}
+.register-now-btn:hover{
+    background: #1ABC9C;
+    border: 1px solid #1ABC9C;
+}
 
 
 /*price end*/
