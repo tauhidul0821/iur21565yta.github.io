@@ -103,7 +103,25 @@ p {
     display: inline-block;
     margin-right: -3%;
 }
+.navbar-default .navbar-nav>li>a{
+    font-family: 'Open Sans',sans-serif;
+    color:#ffffff;
+    font-weight: 700;
+    padding: 20px 10px;
+    text-transform: uppercase;
+    outline: 0;
 
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #222222;
+    background-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+}
 
 /*about start*/
 .about-skill{
@@ -227,19 +245,192 @@ p {
 /*counter end*/
 
 /*contact us start */
+.contact-full{
+    margin-top: 20%;    
+}
+.cont-inline .cont-group h2{
+    text-align: left;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Raleway',sans-serif;
+    color: #1ABC9C;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.cont-inline .cont-group textarea{
+    position: relative; 
+    height: 90px;
+    font-family: 'Open Sans' ,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #777777!important;
+    margin-top: 11%;
+    width: 100%;
+    border: 1px solid #dddddd;
+    padding: 5px 10px;
+}
+.cont-inline .cont-group .form-control {
+    width: 100%;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 500;
+    border: 1px solid #dddddd;
+    padding: 5px 10px;
+    height: 40px;
+    color: #777777!important;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    background-color: transparent;
+    padding-left: 17px;
+}
 
-.form{
+.form {
     background: #ffffff;
     width: 100%;
     padding: 44px 20px 20px 20px;
     border: transparent;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(118, 120, 122, 0.4);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(118, 120, 122, 0.4);
     box-shadow: 0px 0px 10px 0px rgba(118, 120, 122, 0.4);
     z-index: 999;
     position: inherit;
     outline: 0;
+    margin-top: 78px;
+}
+.flato{
+    margin-bottom: 21%;
+}
+.send-btn a{
+    position: absolute;
+    border-style: none;
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 500;
+    padding: 8px 30px;
+    background-color: #1ABC9C;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #ffffff;
+    right: 45%;
+    text-decoration: none;
+    cursor: pointer;
+    border: transparent;
+    outline: 0; 
+}
+.send-btn{
+    margin-top: 2.2%;
+}
+.address{
+    margin-top: 4%;
+}
+.address ul li{
+    color: #1abc9c;
+    font-family: 'Open Sans',sans-serif;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/*contact us end */
+/*footer start*/
+.footer_part{
+    background: #1ABC9C;
+    position: relative;
+    margin: -11%;
+    padding-top: 219px;
+
+}
+.bottom-footer p{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Open Sans',sans-serif;
+    border-top: 1px solid #ffff;
+    padding: 20px 0 10px;    
+}
+
+
+/*footer end*/
+
+
+/*price start*/
+.price-bg{
+    background-color:#A78E8F;
+}
+.price-head{
+    margin-bottom: 70px;
+}
+.event-priceing{
+    border-right: 1px solid #ffffff;
+}
+.event-priceing .plan-name{
+    border-bottom: 1px solid #fff;
+    padding: 26px 0;
+    text-align: center;
+    padding-top: 0;    
+}
+.event-priceing .plan-price{
+    color: #1ABC9C;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Raleway',sans-serif;    
+}
+
+.event-priceing .plan-price p{
+    font-size: 40px;
+}
+.event-priceing .plan-details{
+    text-align: center;
+    padding: 25px 0;
+}
+
+.event-priceing .plan-details li{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin: 15px 0;
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.event-priceing .plan-details li:hover{
+    color: #1ABC9C;
+}
+
+.event-priceing:last-child{
+    border: none;
+}
+.event-priceing .plan-name h6:first-child, .event-priceing .plan-name h6:last-child{
+    padding-top: 80px;
+} 
+
+.event-priceing .plan-name h6{
+    font-size: 32px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #1ABC9C;
+}
+.event-priceing .plan-name small{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Open Sans',sans-serif;
+}
+.best-offer-padding{
+    padding: 22px;
 }
 
 
 
-
-/*contact us end */
+/*price end*/
