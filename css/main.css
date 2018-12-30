@@ -78,6 +78,28 @@ p {
     font-size: 15px;
 }
 
+.shape2::before{
+    content: "";
+    position: absolute;
+    background: #1ABC9C;
+    top: 103.5%;
+    bottom: 14px;
+    left: 43%;
+    right: 2px;
+    height: 2px;
+    width: 130px;
+}
+.shape2::after{
+    content: "";
+    position: absolute;
+    background: #1ABC9C;
+    top: 101%;
+    bottom: 14px;
+    left: 48%;
+    right: 0px;
+    height: 6px;
+    width: 50px;
+}
 
 .top-bar-text li{
     display: inline-block;
@@ -340,15 +362,13 @@ p {
     height: 40px;
     width: 40px;
     color: #ffffff;
+    padding: 6px 0px;
     text-align: center;
     font-size: 24px;
     border-radius: 50%;
     display: inline-block;
 }
 .address ul li i{
-    font-size: 24px;
-    padding-right: 15px;
-    padding-bottom: 20px;
 }
 .address ul li{
     color: #1abc9c;
