@@ -198,6 +198,12 @@ p {
 .single-service-part{
     padding: 20px 1px;
 }
+
+.single-service-part i{
+    color: #1ABC9D;
+    font-size: 55px;
+    padding-left: 40%;
+}
 .single-service-part h3{
     font-family: 'Raleway',sans-serif;
     font-weight: 600;
@@ -225,6 +231,10 @@ p {
 }
 .bnr_overly{
     padding: 90px 0px 70px;
+}
+.counter-text i{
+    color: #ffffff;
+    font-size: 25px;
 }
 .counter-text h4{
     color: #fff;
@@ -325,6 +335,21 @@ p {
 .address{
     margin-top: 4%;
 }
+.address ul li a{
+    background: #1ABC9D;
+    height: 40px;
+    width: 40px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.address ul li i{
+    font-size: 24px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
 .address ul li{
     color: #1abc9c;
     font-family: 'Open Sans',sans-serif;
@@ -371,7 +396,7 @@ p {
 .price-bg{
     padding: 70px 0 91px;
     position: relative;
-    background-image:url(./img/banner-3.jpg);
+    background-image:url(../img/banner-3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
