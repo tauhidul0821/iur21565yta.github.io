@@ -132,6 +132,7 @@ p {
     padding: 20px 10px;
     text-transform: uppercase;
     outline: 0;
+    transition: all 0.5s ease 0s;
 
 }
 
@@ -217,10 +218,21 @@ p {
 
 
 /* services start*/
+.service-inner{
+    margin-top: 94px;
+}
 .single-service-part{
     padding: 20px 1px;
 }
+.single-service-part:hover{
+    cursor: pointer;
+    box-shadow: 0px -1px 15px -1px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease 0s;
 
+}
+.single-service-part:hover h3{
+    color: #1ABC9D;
+}
 .single-service-part i{
     color: #1ABC9D;
     font-size: 55px;
@@ -560,6 +572,25 @@ p {
 .single-blog{
     margin-top: 71px;
 }
+.blog .single-blog .response {
+}
+.blog .single-blog .response .admin i, .comment i ,.like i{
+    font-size: 20px;
+    color: #1ABC9D;
+    padding: 5px 4px;
+}
+
+
+.blog .single-blog .response .admin {
+    float: left;
+}
+.blog .single-blog .response .like {
+    float: right;
+}
+.blog .single-blog .response .comment {
+    float: right;
+}
+
 
 /*blog end*/
 
@@ -617,6 +648,10 @@ p {
     position: relative;
 }
 .portfolo_img img{
+    height: 250px;
+    width: 285px;
+    position: relative;
+    overflow: hidden;
 
 }
 .overlay{
