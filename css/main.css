@@ -77,6 +77,10 @@ p {
     line-height: 1.7em;
     font-size: 15px;
 }
+.slider-area{
+    background: #272727;
+    padding: 260px 0px;
+}
 
 .shape2::before{
     content: "";
@@ -598,8 +602,9 @@ p {
 #team{
     margin: 100px 0px;
 }
-.all-team-member{
-    padding: 81px 0px;
+.all-team-member{    
+    height: 405px;
+    margin-top: 101px;  
 }
 /*team end*/
 /*testimonial start*/
