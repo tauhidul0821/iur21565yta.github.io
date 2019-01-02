@@ -4,6 +4,12 @@
     'use strict';
 
 
+    /** mixitup */
+    
+    //var containerEl = $('#project_mix');
+    var mixer = mixitup('#project_mix');
+
+
     /*  =========================
             Owl Carousel
         ========================= */

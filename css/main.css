@@ -799,14 +799,42 @@ p {
     overflow: hidden;
 
 }
+.portfolo_img:hover .overlay{
+    bottom: 0;
+    height: 100%
+}
 .overlay{
-
+    overflow: hidden;
+    position: absolute;
+    bottom: 100%;
+    left: -1%;
+    right: 0;
+    width: 105%;
+    height: 57px;
+    transition: 0.5s ease;
+    background: linear-gradient(to top, rgba(22, 150, 125, 0.92) 35%, rgba(0, 226, 113, 0.5)85%);
+}
+.overlay-shape{
+    
+}
+.overlay-shape i{
+    margin: 32% 0% 0% 43%;
+    color: #fff;
+    font-size: 24px;
 }
 .overlay h3{
-    
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: 'Raleway','Open Sans',sans-serif;
+    color: #fff;
+    margin-top: 21%;
 }
 .overlay p{
-    
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+    color: #fff;
 }
 
 
