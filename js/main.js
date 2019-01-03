@@ -4,6 +4,7 @@
     'use strict';
 
 
+
     /** mixitup */
     
     //var containerEl = $('#project_mix');
@@ -50,22 +51,7 @@
         $('.slider-info .button').addClass('animated fadeIn').css('opacity', '1');
     });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 
 
 // all-team-member slick
@@ -104,8 +90,19 @@ $('.all-team-member').slick({
     ]
   });
 
+  //counter count 
+    $('.counter').counterUp({
+        delay: 10,
+        time: 2000
+    });
 
 
+
+  
+
+
+
+  
 
 
 
